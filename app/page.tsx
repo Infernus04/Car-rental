@@ -1,9 +1,9 @@
-
+"use client";
+import Hero from "@/app/components/Home/Hero";
 export default function Home() {
   return (
       <div>
-    <h1>Welcome to My App</h1>
-
+        <Hero/>
       </div>
   );
 }
